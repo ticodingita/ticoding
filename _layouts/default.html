@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+</head>
+<body>
+	<script>
+		if (performance.navigation.type === 1) {
+			console.log("Pagina ricaricata automaticamente");
+		} else {
+			window.location.reload();
+		}
+	</script>
+
+
+    <header>
+        <h1>TICoding</h1>
+        <p>Informatica per la scuola: risorse, strumenti e idee per il futuro!</p>
+    </header>
+
+    <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/info/' | relative_url }}">Info</a>
+        <a href="{{ '/qrcode/' | relative_url }}">QR & Barcode</a>
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+    </nav>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>© TiCoding 2025 - Tutti i diritti riservati</p>
+    </footer>
+
+</body>
+</html>
