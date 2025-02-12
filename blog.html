@@ -1,0 +1,17 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<h1>Blog</h1>
+<p>Benvenuti nel blog di TICoding! Qui troverete gli ultimi articoli pubblicati.</p>
+
+
+<ul>
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - <small>{{ post.date | date: "%d %B %Y" }}</small>
+        </li>
+    {% endfor %}
+</ul>

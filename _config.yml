@@ -1,0 +1,45 @@
+title: TICoding Blog
+email: marcomedNOSPAM@NOSPAM.com
+description: >-
+  Un blog dedicato all'informatica per la scuola: risorse, strumenti e idee per il futuro!
+baseurl: "/ticoding" # Sottocartella del repository
+url: "https://ticodingita.github.io"
+github_username: ticodingita
+
+# Impostazioni di build
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Configurazione delle pagine
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Marco Medori"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Opzioni per l'inclusione/esclusione dei file
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Configurazione del blog
+permalink: /:categories/:year/:month/:day/:title/
+paginate: 5
+paginate_path: "/blog/page:num/"

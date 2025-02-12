@@ -1,0 +1,48 @@
+---
+layout: default
+title: QrCode
+permalink: /qrcode/
+---
+
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generatore QR Code & Barcode</title>
+</head>
+<body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
+    <script src="{{ '/script.js' | relative_url }}"></script>
+
+    
+    <main>
+        <section class="generator-container">
+            <p>Generatore realizzato da Marco Medori ©2025</p>
+            <h2>Crea il tuo codice</h2>
+            <label for="inputText">Inserisci il testo nello spazio sotto:</label>
+            <input type="text" id="inputText" placeholder="Inserisci il testo da convertire..." autofocus>
+            <div class="button-container">
+                <button onclick="generateQRCode()">📱 Genera QR Code</button>
+                <button onclick="generateBarcode()">📊 Genera Barcode</button>
+                <button onclick="saveQRCode()">💾 Salva QR Code</button>
+                <button onclick="saveBarcode()">💾 Salva Barcode</button>
+                <button class="clear-btn" onclick="clearPage()">🧹 Pulisci</button>
+            </div>
+
+            <div class="output-container">
+                <div id="qrCodeDiv"></div>
+                <div id="barcodeDiv"></div>
+                <p id="logDiv"></p>
+            </div>
+        </section>
+    </main>
+
+
+
+</body>
+</html>
