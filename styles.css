@@ -189,3 +189,58 @@ footer {
     color: #0066cc;
 }
 
+/* =========================================================
+   BLOG / POST (aggiunte)
+   ========================================================= */
+
+/* Testo dei post: più ordinato, giustificato */
+.post-content {
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: 900px;      /* evita righe troppo lunghe */
+    margin: 0 auto;
+}
+
+/* Spazio tra paragrafi nei post */
+.post-content p {
+    margin: 0 0 1em 0;
+}
+
+/* Titoli interni del post (h2/h3) più leggibili */
+.post-content h2 {
+    margin: 1.2em 0 0.5em 0;
+    color: #0066cc;
+}
+
+.post-content h3 {
+    margin: 1em 0 0.4em 0;
+    color: #004d99;
+}
+
+/* Immagini nei post (es. BBEdit.png): centrate e con dimensione sobria */
+.post-content img {
+    display: block;
+    margin: 20px auto;
+    max-width: 220px;
+    height: auto;
+}
+
+/* Link “Torna al Blog” del layout post.html */
+.back-link {
+    display: inline-block;
+    margin-top: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+    .post-content {
+        text-align: left;
+    }
+}
