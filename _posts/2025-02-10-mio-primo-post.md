@@ -5,8 +5,8 @@ date: 2025-02-11
 categories: generale
 ---
 
-TICoding è un progetto dedicato alla diffusione delle tecnologie digitali nella scuola.
+TICoding è un progetto dedicato alla diffusione delle tecnologie digitali nella scuola e non solo.
 
-Offriamo risorse, strumenti e idee per docenti e studenti, favorendo un apprendimento innovativo e inclusivo.
+Qui saranno disponibili risorse e idee per studenti, docenti e appassionati. 🚀
 
-Seguici per scoprire novità, guide e tutorial! 🚀
+
