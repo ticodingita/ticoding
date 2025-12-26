@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EmbeddedEditorHidden:marcomedori</key>
+	<false/>
+	<key>ExpandedEditorWidth:marcomedori:displays([(0, 0), (1470, 956)])</key>
+	<integer>1267</integer>
+	<key>ExpandedItems:marcomedori</key>
+	<array>
+		<string>F84404E3-4807-4E82-B2B3-E3FFD9B19589</string>
+	</array>
+	<key>FileFilterMode:marcomedori</key>
+	<integer>0</integer>
+	<key>OpenDocuments:marcomedori</key>
+	<array/>
+	<key>OpenDocumentsExpanded</key>
+	<true/>
+	<key>OpenDocumentsSplitterProportion</key>
+	<real>0.6828402366863906</real>
+	<key>ProjectItemsExpanded</key>
+	<true/>
+	<key>ProjectViewVisible</key>
+	<true/>
+	<key>RecentItems:marcomedori</key>
+	<array/>
+	<key>ScratchpadItemsExpanded</key>
+	<true/>
+	<key>ScratchpadItemsVisible</key>
+	<true/>
+	<key>ShowSCMData:marcomedori</key>
+	<false/>
+	<key>ToolbarVisible:marcomedori</key>
+	<false/>
+	<key>ViewSplitterPosition:marcomedori</key>
+	<real>0.13809524476528168</real>
+	<key>WindowFrame:marcomedori:displays([(0, 0), (1470, 956)])</key>
+	<string>rect(66,0,911,1470)</string>
+</dict>
+</plist>
