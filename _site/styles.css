@@ -1,0 +1,339 @@
+/* =========================================================
+   RESET
+   ========================================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =========================================================
+   BODY / LAYOUT BASE
+   ========================================================= */
+body {
+    background-color: #f4f8fb;
+    color: #333;
+    line-height: 1.65;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* NON centrare tutto il sito: rende le pagine “locandina” */
+    text-align: left;
+}
+
+/* utilità: liste dentro testi */
+.ul-alpha li {
+    list-style-position: inside;
+}
+
+/* Nasconde le righe orizzontali (i separatori diventano brutti) */
+hr {
+    display: none;
+}
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+header {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.8em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* =========================================================
+   NAV
+   ========================================================= */
+nav {
+    background-color: #004d99;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.2s ease-in-out, transform 0.15s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #003366;
+    transform: scale(1.03);
+}
+
+/* =========================================================
+   MAIN (contenuto)
+   ========================================================= */
+main {
+    flex-grow: 1;
+    padding: 40px 20px;
+    width: 100%;
+    /* colonna centrale leggibile */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* =========================================================
+   “CARD” PER PAGINE TESTUALI (Risorse, Info, ecc.)
+   ========================================================= */
+.page-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 28px 30px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+}
+
+.page-card h2 {
+    color: #0066cc;
+    font-size: 2.1em;
+    margin-bottom: 10px;
+}
+
+.page-card h3 {
+    color: #004d99;
+    margin: 18px 0 10px;
+}
+
+.page-card p {
+    margin: 0 0 1em 0;
+}
+
+/* =========================================================
+   QR / BARCODE GENERATOR (NON TOCCATO NEL COMPORTAMENTO)
+   ========================================================= */
+.generator-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto 0;
+    text-align: center; /* qui il centrato ha senso */
+}
+
+.generator-container h2 {
+    color: #0066cc;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+/* Input migliorato */
+input {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    border: 2px solid #0088cc;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Contenitore pulsanti */
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Pulsanti migliorati */
+button {
+    background-color: #0088cc;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+button:hover {
+    background-color: #0066cc;
+    transform: scale(1.03);
+}
+
+/* Pulsante di pulizia */
+.clear-btn {
+    background-color: #cc0000;
+}
+
+.clear-btn:hover {
+    background-color: #a00000;
+}
+
+/* Contenitore dei risultati: QR Code, Barcode e messaggio di esito */
+.output-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#qrCodeDiv, #barcodeDiv {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    min-width: 220px;
+}
+
+#logDiv {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    width: 220px;
+    text-align: center;
+    background: #f0f0f0;
+    color: #333;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* =========================================================
+   BLOG / POST
+   ========================================================= */
+.post {
+    background: #fff;
+    border-radius: 10px;
+    padding: 28px 30px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+    margin: 0 auto;
+}
+
+.post-title {
+    background-color: transparent;
+    padding: 5px 0;
+    border-bottom: 2px solid #e0e0e0;
+    font-size: 2em;
+    text-align: center;
+    color: #0066cc;
+    margin-bottom: 8px;
+}
+
+.post-meta {
+    text-align: center;
+    color: #555;
+    margin-bottom: 18px;
+    font-size: 1em;
+}
+
+.post-content {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.75;
+}
+
+.post-content p {
+    margin: 0 0 1em 0;
+}
+
+.post-content h2 {
+    margin: 1.4em 0 0.6em 0;
+    color: #0066cc;
+    text-align: left;
+}
+
+.post-content h3 {
+    margin: 1.1em 0 0.5em 0;
+    color: #004d99;
+    text-align: left;
+}
+
+.post-content img {
+    display: block;
+    margin: 20px auto;
+    max-width: 220px;
+    height: auto;
+}
+
+/* Pulsante download (riusabile ovunque) */
+a.download-link {
+    display: inline-block;
+    margin: 8px 0 12px;
+    padding: 10px 16px;
+    background: #0066cc;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+a.download-link:hover {
+    background: #004d99;
+}
+
+/* Link “Torna al Blog” */
+.back-link {
+    display: inline-block;
+    margin-top: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: relative;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+@media (max-width: 800px) {
+    nav {
+        flex-wrap: wrap;
+    }
+    nav a {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .post-content {
+        text-align: left; /* su mobile è più leggibile */
+    }
+    .post, .page-card {
+        padding: 20px 18px;
+    }
+    header h1 {
+        font-size: 2.2em;
+    }
+}
