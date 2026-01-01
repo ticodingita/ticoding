@@ -32,7 +32,7 @@ Il tempo necessario per farlo? **Due minuti**.
 ## Da Markdown a ePub con Pandoc
 
 Come convertire questo testo in un ePub?  
-È semplice: si può utilizzare il software open source **Pandoc**. Ed è proprio qui che l’intelligenza artificiale può tornare utile, ad esempio per spiegare come installare Pandoc o come scrivere lo script giusto per usarlo.
+È semplice: si può utilizzare il software open source **[Pandoc](https://pandoc.org/)**. Ed è proprio qui che l’intelligenza artificiale può tornare utile, ad esempio per spiegare come installare Pandoc o come scrivere lo script giusto per usarlo.
 
 Il comando minimale è questo:
 
