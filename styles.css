@@ -366,6 +366,16 @@ footer {
     font-weight: bold;
 }
 
+footer a{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+footer a:hover{
+  color: #ffcc00; /* oppure un bianco più caldo */
+}
+
+
 /* =========================================================
    RESPONSIVE
    ========================================================= */
