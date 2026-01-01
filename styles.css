@@ -301,23 +301,28 @@ a.download-link:hover {
 }
 
 /* Riquadro comandi terminale */
-.term-box {
-  border-left: 4px solid #1e73be;
-  background-color: #f4f6f8;
-  padding: 1em;
-  margin: 1.5em 0;
+.term-box{
+  background: #f4f6f8 !important;
+  border-left: 4px solid #1e73be !important;
+  padding: 1em !important;
+  margin: 1.5em 0 !important;
+  display: block !important;
 }
 
-/* Neutralizza gli stili del tema */
-.term-box pre,
-.term-box code {
-  background: transparent !important;
-  border: 0 !important;
-  padding: 0 !important;
+.term-box pre{
+  background: #f4f6f8 !important;   /* qui sta il trucco */
   margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
   box-shadow: none !important;
-  font-family: monospace;
-  font-size: 0.95em;
+}
+
+.term-box code{
+  background: transparent !important;
+  padding: 0 !important;
+  border: 0 !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace !important;
+  font-size: 0.95em !important;
 }
 
 
