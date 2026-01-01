@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<section class="page-hero">
+  <h2 class="page-title">{{ page.title }}</h2>
+
+  {% if page.description %}
+    <p class="page-description">{{ page.description }}</p>
+  {% endif %}
+</section>
+
+<div class="page-content">
+  {{ content }}
+</div>

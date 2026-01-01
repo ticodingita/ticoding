@@ -2,8 +2,16 @@
 layout: post
 title: "Pandoc: scrivere testi in Markdown"
 date: 2026-01-01
-categories: strumenti
+categories: [Software, Markdown, Pandoc]
+image: /img/pandoc.png
+image_alt: "Pandoc"
 ---
+
+
+L’obiettivo della scrittura in Markdown non è fare prima, ma avere controllo totale sul contenuto e sul risultato finale.
+
+
+<!--more-->
 
 ![PANDOC]({{ site.baseurl }}/img/pandoc.png)
 

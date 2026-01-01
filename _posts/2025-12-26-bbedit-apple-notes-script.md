@@ -2,8 +2,16 @@
 layout: post
 title: "BBEdit: copiare il testo in Apple Notes con uno script"
 date: 2025-12-26
-categories: strumenti
+categories: [Software, BBEdit]
+image: /img/BBEdit.png
+image_alt: "BBEdit"
 ---
+
+
+Un piccolo script in linguaggio Applescript per salvare il testo di BBEdit su Apple Notes.
+
+
+<!--more-->
 
 ![BBEdit]({{ site.baseurl }}/img/BBEdit.png)
 

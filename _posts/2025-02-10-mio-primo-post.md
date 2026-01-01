@@ -2,7 +2,7 @@
 layout: post
 title: "Nuovo sito web"
 date: 2025-02-11
-categories: generale
+categories: News
 ---
 
 TICoding è un progetto dedicato alla diffusione delle tecnologie digitali nella scuola e non solo.
