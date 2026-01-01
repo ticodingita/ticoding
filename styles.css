@@ -302,18 +302,22 @@ a.download-link:hover {
 
 /* Riquadro comandi terminale */
 .term-box {
-  border-left: 4px solid #1e73be;   /* blu sobrio */
-  background-color: #f4f6f8;        /* grigio chiaro */
+  border-left: 4px solid #1e73be;
+  background-color: #f4f6f8;
   padding: 1em;
   margin: 1.5em 0;
-  font-family: monospace;
-  font-size: 0.95em;
 }
 
-.term-box pre {
-  margin: 0;
-  background: none;
-  padding: 0;
+/* Neutralizza gli stili del tema */
+.term-box pre,
+.term-box code {
+  background: transparent !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  font-family: monospace;
+  font-size: 0.95em;
 }
 
 
