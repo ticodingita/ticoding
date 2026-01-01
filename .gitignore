@@ -1,1 +1,8 @@
+# Output generato da Jekyll
+_site/
+
+# File di sistema macOS
 .DS_Store
+
+# File progetto BBEdit
+ticoding.bbprojectd/
