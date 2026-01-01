@@ -3,7 +3,8 @@ email: marcomedNOSPAM@NOSPAM.com
 description: >-
   Un blog dedicato all'informatica per la scuola e non solo: risorse, strumenti e idee.
 baseurl: #"/ticoding" # Sottocartella del repository
-url: "https://ticodingita.github.io"
+url: "https://ticoding.it"
+#url: "https://ticodingita.github.io"
 github_username: ticodingita
 
 # Impostazioni di build
