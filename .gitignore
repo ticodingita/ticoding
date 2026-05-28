@@ -6,3 +6,10 @@ _site/
 
 # File progetto BBEdit
 ticoding.bbprojectd/
+
+
+# Ruby / Jekyll locale
+Gemfile
+Gemfile.lock
+.bundle/
+vendor/

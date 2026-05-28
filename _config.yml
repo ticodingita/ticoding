@@ -40,6 +40,23 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - node_modules
+  - vendor
+  - vendor/bundle
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - .git
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - "*.log"
+  - tmp
+  - .DS_Store
 
 # Configurazione del blog
 permalink: /:categories/:year/:month/:day/:title/
