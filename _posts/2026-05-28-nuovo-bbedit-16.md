@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Nuovo Bbedit 16"
+title: "Nuovo Bbedit 16: il miglior editor di testo per Mac"
 date: 2026-05-28
 categories: [Software, BBEdit]
 image: /img/BBEdit.png
